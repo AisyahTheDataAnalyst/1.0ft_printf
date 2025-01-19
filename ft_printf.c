@@ -6,7 +6,7 @@
 /*   By: aimokhta <aimokhta@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/30 17:07:28 by aimokhta          #+#    #+#             */
-/*   Updated: 2025/01/03 18:46:56 by aimokhta         ###   ########.fr       */
+/*   Updated: 2025/01/19 11:47:59 by aimokhta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,37 +115,36 @@ int	ft_process_format(const char *format, va_list args)
 		len += ft_printf_putchar('%');
 	return (len);
 }
-/*
-#include <stdio.h>
 
-int	main()
-{
-	int	test = 2025;
+// #include <stdio.h>
 
-	printf("Character %c\n", 'z');
-	ft_printf("FT_P: Character %c\n\n", 'z');
+// int	main()
+// {
+// 	int	test = NULL;
 
-	printf("Name: %s\n", "Aisyah");
-	ft_printf("FT_P: Name: %s\n\n", "Aisyah");
+// 	printf("Character %c\n", 'z');
+// 	ft_printf("FT_P: Character %c\n\n", 'z');
 
-	printf("Milestone: %d, the %ind one\n", 1, 2);
-	ft_printf("FT_P: Milestone: %d, the %ind one\n\n", 1, 2);
+// 	printf("Name: %s\n", "Aisyah");
+// 	ft_printf("FT_P: Name: %s\n\n", "Aisyah");
 
-	printf("Positive value 8: %u\nNegative value -1: %u\n", 8, -1);
-	printf("FT_P: Positive num 8: %u\nFT_P: Negative num -1: %u\n\n", 8, -1);
+// 	printf("Milestone: %d, the %ind one\n", 1, 2);
+// 	ft_printf("FT_P: Milestone: %d, the %ind one\n\n", 1, 2);
+
+// 	printf("Positive value 8: %u\nNegative value -1: %u\n", 8, -1);
+// 	ft_printf("FT_P: Positive num 8: %u\nFT_P: Negative num -1: %u\n\n", 8, -1);
 	
-	printf("Pointer for number 2025 is %p\n", &test);
-	ft_printf("FT_P: Pointer for number 2025 is %p\n\n", &test);
+// 	printf("Pointer for number NULL is %p\n", NULL);
+// 	ft_printf("FT_P: Pointer for number NULL is %p\n\n", NULL);
 
-	printf("Hexadecimal(lower) for number 2025 is %x\n", 2025);
-	ft_printf("FT_P: Hexadecimal(lower) for number 2025 is %x\n\n", 2025);
+// 	printf("Hexadecimal(lower) for number 2025 is %x\n", 2025);
+// 	ft_printf("FT_P: Hexadecimal(lower) for number 2025 is %x\n\n", 2025);
 	
-	printf("Hexadecimal(upper) for number 2025 is %X\n", 2025);
-	ft_printf("FT_P: Hexadecimal(upper) for number 2025 is %X\n\n", 2025);
+// 	printf("Hexadecimal(upper) for number 2025 is %X\n", 2025);
+// 	ft_printf("FT_P: Hexadecimal(upper) for number 2025 is %X\n\n", 2025);
 	
-	printf("Our project handle %%cspdiuxX%% only\n");
-	ft_printf("FT_P: Our project handle %%cspdiuxX%% only\n");
+// 	printf("Our project handle %%cspdiuxX%% only\n");
+// 	ft_printf("FT_P: Our project handle %%cspdiuxX%% only\n");
 	
-	return (0);
-}
-*/
+// 	return (0);
+// }
